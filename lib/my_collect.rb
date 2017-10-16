@@ -1,4 +1,5 @@
 require'pry'
+
 def my_collect(array)
   x = 0
   new_collection = []
