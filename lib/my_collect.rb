@@ -1,6 +1,9 @@
 
-def my_collect()
+def my_collect(array)
+  x = 0
 
-end
+  while x < array.length
+    x += 1
+  end
   
-
+end
