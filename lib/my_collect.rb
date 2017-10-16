@@ -4,13 +4,13 @@ def my_collect(array)
   new_collection = []
 
     while x < array.length
-      new_collection << yield([x])
+      new_collection << yield(array)
       x += 1
     end
 
   new_collection
 end
 
-my_collect([x]) do |each|
+my_collect(array) do |each|
   each.upcase
 end
