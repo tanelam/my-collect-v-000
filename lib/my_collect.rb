@@ -11,6 +11,3 @@ def my_collect(array)
 end
 
 
-my_collect(array[x]) do |each|
-  each.upcase
-end
