@@ -10,3 +10,7 @@ def my_collect(array)
     
   new_collection
 end
+
+my_collect do |each| 
+  each.upcase
+end
