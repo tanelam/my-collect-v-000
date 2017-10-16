@@ -1,4 +1,4 @@
-
+require'pry'
 def my_collect(array)
   x = 0
   new_collection = []
@@ -10,6 +10,7 @@ def my_collect(array)
 
   new_collection
 end
+binding.pry
 
 my_collect(array[x]) do |each|
   each.upcase
